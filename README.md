@@ -21,7 +21,7 @@
 
 ```bash
 # 1. 複製專案
-git clone https://github.com/YOUR_USERNAME/THSR-Ticket.git
+git clone https://github.com/THSR-TicketRobot/THSR-TicketRobot.git
 cd THSR-Ticket
 
 # 2. 安裝依賴
