@@ -1,11 +1,7 @@
-# THSR Ticket Bot - 依賴清單
+# THSR Ticket Bot - requirements
 # Python 3.9+
 
-# 瀏覽器自動化
 playwright>=1.40.0
-
-# 圖像處理
 Pillow>=10.0.0
-
-# 驗證碼辨識
-ddddocr>=1.4.0
+# ddddocr pinned because 1.6+ removed DdddOcr API used by this project
+ddddocr==1.4.11
