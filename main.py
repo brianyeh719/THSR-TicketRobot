@@ -114,7 +114,7 @@ class THSRApp:
         self.time_ranges_var = tk.StringVar(value="12:00-22:00") 
         self.range_entry = ttk.Entry(form_frame, textvariable=self.time_ranges_var)
         self.range_entry.grid(row=8, column=1, sticky=tk.EW, pady=5)
-        ttk.Label(form_frame, text="(留空則選擇最早班次)").grid(row=8, column=2, sticky=tk.W, padx=5)
+        ttk.Label(form_frame, text="(注意-優先時段中如果有複數班次的車票，會選擇區間中最早的班次購買)").grid(row=8, column=2, sticky=tk.W, padx=5)
 
         # Retry Settings
         ttk.Label(form_frame, text="搜尋循環次數:").grid(row=9, column=0, sticky=tk.W, pady=5)
